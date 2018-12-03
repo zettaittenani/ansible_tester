@@ -1,0 +1,8 @@
+---
+- name: Hello Ansible
+  hosts: managed_node
+  user: root
+
+  tasks:
+    - name: Hello server
+      shell: date >> now.txt
