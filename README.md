@@ -10,9 +10,9 @@ $ docker-compose exec controller /bin/bash
 
 ## in 'controller' (Docker container) ##
 
-#[xxx...] cd ansible
-#[xxx...] ansible-playbook -k ./setup.yml -vvv -i ./hosts
-#[xxx...] exit
+$ cd ansible
+$ ansible-playbook -k ./setup.yml -vvv -i ./hosts
+$ exit
 
 ## end ##
 
@@ -20,7 +20,7 @@ $ docker-compose exec target /bin/bash
 
 ## in 'target' (Docker container) ##
 
-#[xxx...] cat now.txt
+$ cat now.txt
 
 ## end ##
 ```
