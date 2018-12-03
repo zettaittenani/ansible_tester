@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  controller:
+    build: ./controller/
+    privileged: true
+    volumes:
+      - "./ansible:/ansible"
+  target:
+    build: ./target/
+    privileged: true

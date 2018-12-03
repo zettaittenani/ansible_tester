@@ -1,8 +1,3 @@
-## build command (at Dockerfile dir)
-# docker build ./ -t ansible-target:latest
-## run command
-# docker run --privileged -d -p 122:22 --name target ansible-target:latest
-
 FROM centos:7.5.1804
 MAINTAINER "zettaittenani"
 
