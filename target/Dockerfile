@@ -1,5 +1,5 @@
 FROM centos:7.5.1804
-MAINTAINER "zettaittenani"
+MAINTAINER "zettaittenani<zettaittenani@gmail.com>"
 
 # infra settings
 RUN yum check
