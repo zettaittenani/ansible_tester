@@ -24,3 +24,5 @@ $ cat now.txt
 
 ## end ##
 ```
+# Ref
+- [Ansible controller/target を Docker コンテナで構築する - Qiita](https://qiita.com/zettaittenani/items/4c5844962ae85f851c29)
